@@ -16,8 +16,8 @@
 
 .button.alt a {
 	background: transparent;
-	border: 2px solid #282828;
 	color: #282828;
+	border: 2px solid #282828;
 	font-weight: 500;
 	font-size: 16px;
 	border-radius: 4px;
@@ -25,8 +25,8 @@
 }
 
 .button.alt a:hover {
-	background: #282828;
-	color: #FFF;
+    background: #282828;
+    color: #fff;
 }
 
 textarea, input, button, select { font-family: inherit; font-size: inherit; }
