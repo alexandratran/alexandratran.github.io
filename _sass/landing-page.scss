@@ -1,6 +1,66 @@
+.hero {
+	color: #000;
+	text-align: center;
+	background: linear-gradient(to bottom, $middle-gradient-color 0%, $secondary-brand-color 100%) no-repeat;
+
+	h1 {
+	    font-size: 55px;
+	    margin-top: 0;
+	}
+}
+
+#mc_embed_shell #mc_embed_signup {
+    background: inherit;
+    clear: left;
+    font-size: 17px;
+    font-family: Nunito Sans;
+    width: 500px;
+    text-align: center;
+
+    h2 {
+        font-weight: 300;
+        font-size: 27px;
+    }
+}
+
+#mc_embed_signup #mce-EMAIL {
+    text-align: center;
+    border: 0;
+    border-radius: 0px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 12px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mce_inline_error {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+#mce-responses #mce-error-response, #mce-responses #mce-success-response {
+    width: 395px;
+    margin: 0 auto;
+    padding-top: 0px;
+    font-weight: 400;
+    color: #282828;
+}
+
+#mc_embed_signup #mc-embedded-subscribe {
+	background: linear-gradient(to bottom, #282828 0%, #000 100%);
+	font-weight: 500;
+	padding: 10px 35px;
+	margin-top: 5px;
+    height: auto;
+    line-height: auto;
+}
+
+@media only screen and (max-width: 510px) {
+    #mc_embed_signup {
+        width: 100%;
+    }
+}
+
 .bottom-cta {
-	background: linear-gradient(to bottom, $brand-color 0%, $middle-gradient-color 100%);
-	color: #fff;
+	background: #FFC458;
+	color: #000;
 	text-align: center;
 	margin: 0;
 	padding: 100px 0;
@@ -10,38 +70,10 @@
 	}
 }
 
-.testimonial {
-	background: #f5f5f5;
-	margin: 0;
-	padding: 100px 0;
-
-	.testimonial-block {
-		max-width: 750px;
-		width: 98%;
-		margin: 0 auto;
-
-		@media #{$tablet} {
-			@include flexbox;
-
-			blockquote {
-				-webkit-flex: 1;
-				flex: 1;
-			}
-		}
-	}
+#map-embed iframe {
+    border: 0;
+    margin-bottom: -6px;
 }
-
-.hero {
-	color: #ffffff;
-	text-align: center;
-	background: linear-gradient(to bottom, $middle-gradient-color 0%, $secondary-brand-color 100%) no-repeat #a05fb7;
-	padding-top: 50px;
-
-	p {
-		color: #fff;
-	}
-}
-
 
 @media #{$desktop} {
 	.flex {

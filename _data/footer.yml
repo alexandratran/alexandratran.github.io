@@ -1,39 +1,38 @@
 - links:
-  - name: Pricing
-    link: /pricing/
-  - name: Blog
-    link: /blog/
+  - name: Home
+    link: /
   - name: About
     link: /about/
+  - name: Events
+    link: /events/
+  - name: Blog
+    link: /blog/
   - name: Contact
     link: /contact/
 - links:
-  - name: Login
-    link: /
-    new_window: true
-  - name: Sign Up
-    link: /
-    new_window: true
-  - name: Docs
-    link: /
-    new_window: true
-  - name: Status
-    link: /
-    new_window: true
+    - name: Libertarian Party of California
+      link: https://ca.lp.org/
+      new_window: true
+    - name: National Libertarian Party
+      link: https://www.lp.org/
+      new_window: true
+    - name: Become a member
+      link: https://lpca.app.neoncrm.com/forms/join
+      new_window: true
 - links:
+  - name: Newsletter
+    link: https://mailchi.mp/46964c7beabf/libertarian-party-of-placer-county-newsletter
+    new_window: true
+    social_icon: Mail
+  - name: Discord
+    link: https://discord.gg/BMAGRYTjfD
+    social_icon: Discord
+    new_window: true
   - name: Facebook
-    link: https://facebook.com/cloudcannon/
-    new_window: true
+    link: https://www.facebook.com/LPofPlacerCounty
     social_icon: Facebook
-  - name: Twitter
-    link: https://twitter.com/cloudcannon/
-    social_icon: Twitter
     new_window: true
-  - name: YouTube
-    link: https://youtube.com/cloudcannon/
-    social_icon: YouTube
+  - name: GitHub
+    link: https://github.com/alexandratran/placerlp.org
+    social_icon: GitHub
     new_window: true
-  - name: RSS
-    link: /feed.xml
-    social_icon: RSS
-    new_window: false
