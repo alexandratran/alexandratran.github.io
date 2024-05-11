@@ -3,10 +3,10 @@
     link: /
   - name: About
     link: /about/
-  - name: Events
-    link: /events/
   - name: Blog
     link: /blog/
+  - name: Events
+    link: /events/
   - name: Contact
     link: /contact/
 - links:
