@@ -7,14 +7,40 @@ description: >-
   The following is a list of our current elected officers.
 ---
 
-<p class="editor-link" style="text-align: center;">
-	<a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong> Manage Staff members</a></p>
 <ul class="staff">
-	{% for person in site.staff_members %}
-		<li>
-			<div class="square-image"><img src="{% include relative-src.html src=person.image_path %}" alt="{{ person.name }}"/></div>
-			<div class="name">{{ person.name }}</div>
-			<div class="position">{{ person.position }}</div>
-		</li>
-	{% endfor %}
+	<li>
+		<div class="square-image"><img src="../images/richard.jpeg"/></div>
+		<div class="name">Richard Simms</div>
+		<div class="position">Chair</div>
+	</li>
+	<li>
+		<div class="square-image"><img src="../images/daniel.jpeg"/></div>
+		<div class="name">Daniel Burke</div>
+		<div class="position">Vice Chair</div>
+	</li>
+	<li>
+		<div class="square-image"><img src="../images/pierre.jpeg"/></div>
+		<div class="name">Pierre Carrillo</div>
+		<div class="position">Secretary</div>
+	</li>
+	<li>
+		<div class="square-image"><img src="../images/robert.jpeg"/></div>
+		<div class="name">Robert Page</div>
+		<div class="position">Treasurer</div>
+	</li>
+	<li>
+		<div class="square-image"><img src="../images/alexandra.jpeg"/></div>
+		<div class="name">Alexandra Carrillo</div>
+		<div class="position">At Large</div>
+	</li>
+	<li>
+		<div class="square-image"><img src="../images/todd.jpeg"/></div>
+		<div class="name">Todd Overgard</div>
+		<div class="position">At Large</div>
+	</li>
+	<li>
+		<div class="square-image"><img src="../images/steve.jpeg"/></div>
+		<div class="name">Steve Wood</div>
+		<div class="position">At Large</div>
+	</li>
 </ul>
